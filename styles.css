@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif, 'Times New Roman';
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    align-items: center;
+    background-color: #1f2937;
+    height
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header li {
+    font-size: 18px;
+    color: #e5e7eb;
+    cursor: pointer;
+}
