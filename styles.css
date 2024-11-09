@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif, 'Times New Roman';
+    font-family: Roboto, sans-serif, 'Times New Roman';
 }
 
 li {
@@ -30,4 +30,39 @@ li {
     font-size: 18px;
     color: #e5e7eb;
     cursor: pointer;
+}
+
+.content-1 {
+    display: flex;
+    padding: 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #1f2937;
+    height: 400px;
+}
+
+.content-1 img {
+    height: 250px;
+    width: auto;
+}
+
+.left-side div{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.left-side p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-side button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
