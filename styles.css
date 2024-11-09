@@ -97,4 +97,27 @@ li {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.content-3 {
+    height: 400px;
+    padding: 0px 250px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-3 p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.content-3 div {
+    align-self: flex-end;
+    font-size: larger;
+    font-weight: bold;
 }
