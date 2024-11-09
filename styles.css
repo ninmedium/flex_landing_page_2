@@ -121,3 +121,42 @@ li {
     font-size: larger;
     font-weight: bold;
 }
+
+.content-4 {
+    height: 300px;
+    padding: 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#b-1 {
+    font-size: larger;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#b-2 {
+    color: #e5e7eb;
+}
+
+.blue-box button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #e5e7eb;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 700;
+}
