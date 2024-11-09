@@ -160,3 +160,12 @@ li {
     padding: 5px 20px;
     font-weight: 700;
 }
+
+.footer {
+    background-color: #1f2937;
+    height: 70px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
